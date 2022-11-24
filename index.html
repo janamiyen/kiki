@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomerBurger</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/6b30aaad86.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="navBar">
+        <div class="container contenedor">
+            <div class="logo">
+                <img src="img/homero.png" class="imgLogo">
+            </div>
+            <div class="btn-menu cartMenu">
+                <label for="btn-menu">
+                    <span><img class="cart" src="img/mcNifica.png"></span><span class="comprar"
+                        id="contCarrito">0</span>
+                </label>
+            </div>
+        </div>
+    </div>
+
+    <div> <img class="imgPrincipal" src="img/burger 3).jpg"></div>
+    <div class="contBanner">
+        <p class="parra"> <span class="banner">Termina la semana con una</span> TRIPLE CON QUESO </p>
+        <div class="wrapper">
+            <div class="link_wrapper">
+              <a href="" id="h1" class="viewMenu"> view menu </a>
+              <div class="icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 268.832 268.832">
+                  <path d="M265.17 125.577l-80-80c-4.88-4.88-12.796-4.88-17.677 0-4.882 4.882-4.882 12.796 0 17.678l58.66 58.66H12.5c-6.903 0-12.5 5.598-12.5 12.5 0 6.903 5.597 12.5 12.5 12.5h213.654l-58.66 58.662c-4.88 4.882-4.88 12.796 0 17.678 2.44 2.44 5.64 3.66 8.84 3.66s6.398-1.22 8.84-3.66l79.997-80c4.883-4.882 4.883-12.796 0-17.678z"/>
+                </svg>
+              </div>
+            </div>
+            
+          </div>
+    </div>
+
+    <div class="container2">
+        <div class="carousel">
+            <div class="carousel__face"><span></span></div>
+            <div class="carousel__face"><span></span></div>
+            <div class="carousel__face"><span></span></div>
+            <div class="carousel__face"><span></span></div>
+            <div class="carousel__face"><span></span></div>
+            <div class="carousel__face"><span></span></div>
+            <div class="carousel__face"><span></span></div>
+            <div class="carousel__face"><span></span></div>
+            <div class="carousel__face"><span></span></div>
+        </div>
+    </div>
+
+
+    <h1 id="h1">Burger menu </h1>
+    <div class="ea">
+    <p class="eu">_________________________________</p>
+   
+</div>
+    <div class="capa"></div>
+    <input type="checkbox" id="btn-menu">
+    <div class="container-menu">
+        <div class="cont-menu">
+            <nav>
+                <br>
+                <br>
+                <br>
+                <br>
+                <h3>CARRITO</h3>
+                <br>
+                <table id="lista-carrito" class="">
+                    <thead>
+                        <tr>
+                            <th class="imagenCarrito"></th>
+                            <th class="nombreCarrito">Combos</th>
+                            <th class="precioCarrito">Precio</th>
+                            <th class="cantidadCarrito">Cantidad</th>
+                            <th class="precioTotalCarrito">Subtotal</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+                <br>
+                <p class="precioProducto">Precio total: $<span id="precioTotal">0</span></p>
+                <br>
+                <div class="botones">
+                    <div>
+                        <button type="button" href="#" id="pagar" class="botonComprar">FINALIZAR COMPRA</button>
+                    </div>
+                    <div>
+                        <button type="button" id="vaciar" class="botonVaciar">VACIAR CARRITO</button>
+                    </div>
+                </div>
+                <br><br><br>
+            </nav>
+            <label for="btn-menu"><span class="close"><img src="img/close.png"></span></label>
+
+        </div>
+    
+    </div>
+    <div id="contenedorProductos" class="productos resultado">
+    </div>
+   
+
+    <footer>
+        <div class="footer">
+            <div class="footer__redes">
+                <ul>
+                    <li><a href="#" target="blank" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#" target="blank" class="instagram"><i class="fab fa-instagram"></i></a></li>
+                </ul>
+            </div>
+        </div>
+
+    </footer>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
