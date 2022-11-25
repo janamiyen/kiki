@@ -147,6 +147,7 @@ finalizarCompra.addEventListener('click', () => {
   contenedorCarrito.innerHTML =""; 
   precioTotal.innerText = 0;
   //Agrego libreria sweetalert2 para mensaje de finalizar compra
+
   Swal.fire({
     title: 'Muchas gracias por tu compra!!',
     text: 'Gracias por elegir HomerBurger!!',

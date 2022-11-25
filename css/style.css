@@ -325,7 +325,7 @@ h1 {
     opacity: 0.9;
     border-radius: 6px;
     border: solid 1px #e5be01;
-    box-shadow: 0 0 30px #e5be01;
+    box-shadow: 0 0 30px #e5be017a;
 }
 
 .boton:hover {
@@ -692,6 +692,9 @@ span {
         gap: 20px 20px;
         grid-template-columns: auto auto auto;
     }
+    .wrapper{
+      margin:  -18px 0px 0px 28px;
+    }
 
 }
 
@@ -729,6 +732,9 @@ span {
     h1 {
         margin: 123px 0px 0px 0px;
     }
+    .wrapper{
+        margin: 37px 0px 0px 28px;
+     }
 
 }
 
@@ -765,9 +771,7 @@ span {
     }
 
     .wrapper {
-        position: absolute;
-        top: 72%;
-        left: 44%;
+      margin:  -144px 0px 0px 181px;
     }
 
     .parra {
@@ -822,7 +826,7 @@ span {
     }
 
     .wrapper {
-        margin: 30px 0px -3px 36px;
+        margin: -136px 0px 0px 131px;
     }
 }
 
@@ -860,7 +864,7 @@ h1 {
     font-size: revert;
 }
     .wrapper {
-        margin: -54px 0px -3px 36px
+        margin: -222px 0px 0px 127px;
     }
 }
 
