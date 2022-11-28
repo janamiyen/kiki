@@ -123,7 +123,7 @@ const actualizarCarrito = () => {
       <td class="imagenCarrito"><img src="${menu.imagen}" width="60px"></td>
       <td class="nombreCarrito">${menu.nombre}</td>
       <td class="precioCarrito">$ ${menu.precio}</td>
-      <td class="cantidadCarrito"><span id="cantidad">${menu.cantidad} un</span></td>
+      <td class="cantidadCarrito"><span id="cantidad">${menu.cantidad} </span></td>
       <td class="precioTotalCarrito">$ ${menu.precio * menu.cantidad}</td>
       <td><button  onclick= "eliminarDelCarrito(${menu.id})" class="boton-eliminar"><img src="./img/close.png" class="eliminarImagen"></button><td>
     `
