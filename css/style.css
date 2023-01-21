@@ -1,6 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;1,100;1,200;1,300;1,400&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100;0,8..144,200;0,8..144,300;0,8..144,400;1,8..144,100;1,8..144,200;1,8..144,300;1,8..144,400&display=swap');
 * {
     padding: 0;
     margin: 0;
@@ -204,7 +202,7 @@ h3 {
 }
 
 h1 {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto Serif', serif;
     color: #e5be01cf;
     font-size: 52px;
     DISPLAY: flex;
@@ -314,18 +312,15 @@ h1 {
 .boton {
     color: #fff;
     cursor: pointer;
-    border: none;
-    border-radius: 6px;
     padding: 12px;
     background-color: #e5be01;
     text-align: center;
     width: 100%;
-    font-size: 18px;
-    font-weight: bold;
-    opacity: 0.9;
+    font-size: 20px;
+    font-weight: 510;
     border-radius: 6px;
-    border: solid 1px #e5be01;
-    box-shadow: 0 0 30px #e5be017a;
+    border: solid 1px;
+    font-family: 'Roboto Serif', serif;
 }
 
 .boton:hover {
@@ -333,13 +328,21 @@ h1 {
     transition: .2s;
 }
 
-.precio,
-h2 {
-    font-size: 18px;
+.precio{
+    font-size: 16px;
     text-align: center;
-    font-weight: bold;
+    font-weight: 240;
+    padding: 8px 0;
+    color: #000000a8;
+    font-family: 'Roboto Serif', serif;
+}
+h2 {
+    font-size: 19px;
+    text-align: center;
+    font-weight: 547;
     padding: 10px 0;
-    ;
+    color: #000;
+    font-family: 'Roboto Serif', serif;
 }
 
 .precioProducto {
