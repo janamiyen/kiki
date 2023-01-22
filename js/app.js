@@ -14,6 +14,8 @@ const vaciar = document.getElementById('vaciar');
 
 const finalizarCompra = document.getElementById('pagar');
 
+const cerrarCarrito = document.querySelector('label[for="btn-menu"]');
+console.log(cerrarCarrito);
 
 document.addEventListener('DOMContentLoaded', () => {
   if (localStorage.getItem('carrito')){
@@ -30,8 +32,8 @@ vaciar.addEventListener('click', () => {
  
   Swal.fire({
     title: 'Carrito vacio',
-    background: '#000',
-    color: '#fff',
+    background: '#fff',
+    color: '#222',
   });
 });
 
@@ -155,15 +157,20 @@ finalizarCompra.addEventListener('click', () => {
     imageWidth: 200,
     imageHeight: 200,
     imageAlt: 'Custom image',
-    background: '#000',
-    color: '#fff',
+    background: '#fff',
+    color: '#222',
    })
+   setTimeout(()=>{
+    cerrarCarrito.onclick
+    window.location.reload()
+    cerrarCarrito.click()
+   }, 2000)
   }else{
   //Agrego libreria sweetalert2 para mensaje de carrito vacio
   Swal.fire({
   title: 'El carrito esta vacio',
-  background: '#yellow;',
-  color: '#fff',
+  background: '#fff;',
+  color: '#222',
   });
   };
 });
