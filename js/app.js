@@ -12,7 +12,7 @@ const contadorCarrito = document.getElementById('contCarrito');
 
 const vaciar = document.getElementById('vaciar');
 
-const finalizarCompra = document.getElementById('finalizarCompra');
+const finalizarCompra = document.getElementById('pagar');
 
 
 document.addEventListener('DOMContentLoaded', () => {
