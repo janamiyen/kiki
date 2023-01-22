@@ -602,17 +602,17 @@ span {
     }
 }
 
-
 .banner {
     -webkit-text-stroke: 1.7px #000000ed;
-    color: transparent;
-    font-size: 55px;
+    color: #00000070;
+    font-size: 51px;
+    font-family: 'Roboto Serif';
 }
 
 .parra {
     font-family: 'Raleway', sans-serif;
     color: #000000a6;
-    font-size: 48px;
+    font-size: 51px;
     width: 44% !important;
     position: absolute;
     margin: -404px 10px 13px 10px;
@@ -855,9 +855,8 @@ span {
 
     }
 
-
     .imgPrincipal {
-        width: 106% !important;
+        width: 110% !important;
         height: 217px;
 }
    
