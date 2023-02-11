@@ -26,21 +26,35 @@
 
     <header>
         <div class="navBar">
-        <nav class="menu-burger">
-            <ul>
-                <li><a href="./registro.html">Únete</a></li>
-                <li>|</li>
-                <li><a href="./sesion.html">Iniciar sesión</a></li>
-            </ul>
-        </nav>
-    
-        <div class="container contenedor">
-            <div class="logo">
-                <a href="./index.html"> <img src="img/homero.png" class="imgLogo"></a> 
-            </div>
 
-        </div>
-    </div>
+            <nav class="menu-burger2">
+
+
+                <ul class="d-none d-md-flex">
+                    <li><a href="index.html">TAKE AWAY</a></li>
+                    <li><a href="./registro.html">SIGN UP</a></li>
+                    <li><a href="./sesion.html">SIGN IN</a></li>
+                </ul>
+                <span class="menuDesplegableBurger d-md-none d-sm-block" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                    <i class="fas fa-bars"></i>
+                </span>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+                    aria-labelledby="offcanvasRightLabel">
+                    <div class="offcanvas-header">
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body bodyMenu">
+                        <ul class="menuDesplegable">
+                            <li><a href="index.html">TAKE AWAY</a></li>
+                            <li><a href="#">FRANQUICIAS</a></li>
+                            <li><a href="registro.html">TRABAJÁ CON NOSOTROS</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
 </header>
     <form>
         <fieldset>

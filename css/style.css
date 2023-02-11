@@ -11,36 +11,115 @@ body {
     color: white;
 }
 .menu-burger {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #eee;
-    padding: 4px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #eee;
+  padding: 4px 10px;
+}
+
+.menu-burger ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+}
+
+.menu-burger ul li {
+  padding: 0 20px;
+}
+
+.menu-burger ul li:nth-child(2) {
+  padding: 0;
+}
+
+.menu-burger ul li a {
+  text-decoration: none;
+  color: #111;
+  font-size: 12px;
+}
+
+.menu-burger ul li a:hover {
+  color: #2a2a2a;
+}
+
+.menu-burger2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 69px;
+  position: sticky;
+}
+
+@media screen and (max-width: 768px) {
+  .menu-burger2 {
+    justify-content: flex-end;
   }
-  
-  .menu-burger ul {
-    list-style: none;
-    display: flex;
-    margin: 0;
+}
+
+.menu-burger2 .menuDesplegableBurger {
+  margin-right: 10px;
+  padding: 0;
+}
+
+.menu-burger2 .menuDesplegableBurger i {
+  font-size: 1.5rem;
+  color: #111;
+  cursor: pointer;
+}
+
+.menu-burger2 .bodyMenu {
+  padding: 0;
+}
+
+.menu-burger2 .bodyMenu .menuDesplegable {
+  padding: 0;
+  margin-top: 10px;
+}
+
+.menu-burger2 .bodyMenu .menuDesplegable li {
+  padding: 10px 0;
+  margin-bottom: 0;
+}
+
+.menu-burger2 .logo-container {
+  position: absolute;
+  left: 10px;
+}
+
+.menu-burger2 ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .menu-burger2 ul {
+    flex-direction: column;
+    justify-content: center;
   }
-  
-  .menu-burger ul li {
-    padding: 0 20px;
+}
+
+.menu-burger2 ul li {
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .menu-burger2 ul li {
+    margin-right: 0;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #111;
   }
-  
-  .menu-burger ul li:nth-child(2) {
-    padding: 0;
-  }
-  
-  .menu-burger ul li a {
-    text-decoration: none;
-    color: #111;
-    font-size: 12px;
-  }
-  
-  .menu-burger ul li a:hover {
-    color: #2a2a2a;
-  }
+}
+
+.menu-burger2 ul li a {
+  text-decoration: none;
+  color: #111;
+  padding: 16px 12px 18px 12px;
+}
+
+.menu-burger2 ul li a:hover {
+  border-bottom: 2px solid #111;
+}
 
 .divImg {
     height: 108%;
@@ -57,20 +136,12 @@ body {
     left: 0;
 }
 
-nav {
-    background: #ffff;
-}
 
 .navBar {
-    background: #eeeeeeeb;
+    background: #eeeeee;
     align-items: center;
-    padding: 10px;
     width: 100%;
-    height: 120px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 1;
+    height: 69px;
 }
 
 .container {
@@ -79,25 +150,13 @@ nav {
 }
 
 
-.container .btn-menu,
-.logo {
-    float: left;
-    line-height: 100px;
-}
-
-.container .btn-menu label {
-    color: #fff;
-    font-size: 25px;
-    cursor: pointer;
-}
-
 .logo {
     height: 110px;
 }
 
 .imgLogo {
-    width: 83px;
-
+    width: 80px;
+    margin: 14px 0 0 -37px;
 }
 
 .container {
@@ -105,9 +164,6 @@ nav {
     line-height: 100px;
 }
 
-#btn-menu {
-    display: none;
-}
 
 .comprar {
     color: rgb(199, 162, 93);
@@ -124,6 +180,7 @@ nav {
     margin: 0;
     color: #fff;
     height: 50px;
+    cursor: pointer;
 }
 
 .container-menu {
@@ -144,6 +201,10 @@ nav {
 #btn-menu:checked~.container-menu {
     opacity: 1;
     visibility: visible;
+}
+
+.btn-menu {
+    margin: -60px 10px -115px 14px;
 }
 
 .cont-menu {
@@ -173,6 +234,10 @@ nav {
     color: #fff;
     cursor: pointer;
     font-size: 18px;
+}
+
+label{
+    position: fixed;
 }
 
 .close {
@@ -712,11 +777,6 @@ span {
         grid-template-columns: auto auto;
     }
 
-    .contenedor {
-        display: grid;
-        gap: 20px;
-        grid-template-columns: 4fr 1fr;
-    }
 
     img>.imgPrincipal {
 
@@ -750,11 +810,6 @@ span {
         grid-template-columns: auto;
     }
 
-    .contenedor {
-        display: grid;
-        gap: 20px;
-        grid-template-columns: 3fr 1fr;
-    }
 
 
     .titulo {
@@ -786,12 +841,6 @@ span {
 }
 
 @media (max-width: 520px) {
-
-    .contenedor {
-        display: grid;
-        gap: 20px;
-        grid-template-columns: 2fr 1fr;
-    }
 
 
     .titulo {
@@ -834,12 +883,6 @@ span {
 }
 
 @media (max-width: 390px) {
-
-    .contenedor {
-        display: grid;
-        gap: 20px;
-        grid-template-columns: 1.5fr 1fr;
-    }
 
 
     .titulo {
@@ -968,5 +1011,11 @@ form {
      form {
       width: 100%;
       margin: 10px 0 0 10px;
+    }}
+
+    table {
+
+        color: black;
     }
-  }
+    
+    
