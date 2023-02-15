@@ -15,7 +15,8 @@ const vaciar = document.getElementById('vaciar');
 const finalizarCompra = document.getElementById('pagar');
 
 const cerrarCarrito = document.querySelector('label[for="btn-menu"]');
-console.log(cerrarCarrito);
+
+
 
 document.addEventListener('DOMContentLoaded', () => {
   if (localStorage.getItem('carrito')){

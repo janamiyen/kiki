@@ -584,88 +584,6 @@ td {
     perspective: 1000px;
 }
 
-.carousel {
-    margin: 0px 0px 15px 284px;
-    width: 100%;
-    height: 100%;
-    transform-style: preserve-3d;
-    animation: rotate360 60s infinite forwards linear;
-}
-
-.carousel__face {
-    position: absolute;
-    width: 300px;
-    height: 187px;
-    top: 20px;
-    left: 10px;
-    right: 10px;
-    background-size: cover;
-    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.5);
-    display: flex;
-}
-
-span {
-    margin: auto;
-    font-size: 20px;
-}
-
-
-.carousel__face:nth-child(1) {
-    background-image: url("https://img.freepik.com/foto-gratis/vista-frontal-mujer-comiendo-hamburguesas-carne_141793-17491.jpg?w=826&t=st=1668240265~exp=1668240865~hmac=35a15def6723d2dbd87ac568ab8723bd64d21fbc23ec4634bb7e2c38a12c6c21");
-    transform: rotateY(0deg) translateZ(430px);
-}
-
-.carousel__face:nth-child(2) {
-    background-image: url("https://img.freepik.com/foto-gratis/vista-frontal-hamburguesa-stand_141793-15542.jpg?w=826&t=st=1668240308~exp=1668240908~hmac=b889813884ab037fd212c77c5ee06b2f6829efb51a39d48d2b4be4056cd5e69e");
-    transform: rotateY(40deg) translateZ(430px);
-}
-
-.carousel__face:nth-child(3) {
-    background-image: url("https://img.freepik.com/foto-gratis/bodegon-deliciosa-hamburguesa-americana_23-2149637349.jpg?w=826&t=st=1668240453~exp=1668241053~hmac=4d57cdb9a56b737b7c5e21162e0cb5d9a8d389960ec83d0f1830a0bca1c8f04e");
-    transform: rotateY(80deg) translateZ(430px);
-}
-
-.carousel__face:nth-child(4) {
-    background-image: url("https://img.freepik.com/foto-gratis/hamburguesa-jamon-tomate-col_140725-2354.jpg?w=740&t=st=1668240479~exp=1668241079~hmac=c9f1da8f16ba6d368a47c5e89499249608755c71b4619ff0f570df136c9cd49f");
-    transform: rotateY(120deg) translateZ(430px);
-}
-
-.carousel__face:nth-child(5) {
-    background-image: url("https://img.freepik.com/foto-gratis/bodegon-deliciosa-hamburguesa-americana_23-2149637314.jpg?w=740&t=st=1668240560~exp=1668241160~hmac=ffd12e0ae002538a95fb39ee27b517b39e03aeb820c1a56ef2b3250b9431dcdd");
-    transform: rotateY(160deg) translateZ(430px);
-}
-
-.carousel__face:nth-child(6) {
-    background-image: url("https://img.freepik.com/foto-gratis/hamburguesa-carne-clasica-rodeada-papas-fritas_23-2148290689.jpg?w=740&t=st=1668240692~exp=1668241292~hmac=9dff9af9d6e3fbfa35cc9bfb187277075f8e1ba1cbbbf16e96894c8254aeadeb");
-    transform: rotateY(200deg) translateZ(430px);
-}
-
-.carousel__face:nth-child(7) {
-    background-image: url("https://img.freepik.com/foto-gratis/conjunto-sabrosas-hamburguesas-tabla-madera_23-2148290589.jpg?w=740&t=st=1668240731~exp=1668241331~hmac=9df3e675781b4fa62a8f229bb7196386fa05cdb0c01d0a12f88a3cdfd49efb68");
-    transform: rotateY(240deg) translateZ(430px);
-}
-
-.carousel__face:nth-child(8) {
-    background-image: url("https://img.freepik.com/foto-gratis/big-mac-burger-carne-res-queso-cheddar-derretido-ensalada-blanca-completa_114579-2311.jpg?w=740&t=st=1668240755~exp=1668241355~hmac=157cba9aaaa10e3f418acfd9d9a915781797631793d0c4fd70ea3ae7248495cb");
-    transform: rotateY(280deg) translateZ(430px);
-}
-
-.carousel__face:nth-child(9) {
-    background-image: url("https://img.freepik.com/foto-gratis/mini-hamburguesas-pollo-carne-lechuga-pepino-tomate-vista-lateral_141793-2585.jpg?w=740&t=st=1668240816~exp=1668241416~hmac=7d0bbb975035e840b33a09f089c5abd5194dd6f45b3f52d379eb16fb5f19f1ee");
-    transform: rotateY(320deg) translateZ(430px);
-}
-
-
-
-@keyframes rotate360 {
-    from {
-        transform: rotateY(0deg);
-    }
-
-    to {
-        transform: rotateY(-360deg);
-    }
-}
 
 .banner {
     -webkit-text-stroke: 1.7px #000000ed;
@@ -681,7 +599,6 @@ span {
     width: 44% !important;
     position: absolute;
     margin: -404px 10px 13px 10px;
-
 
 }
 
