@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100;0,8..144,200;0,8..144,300;0,8..144,400;1,8..144,100;1,8..144,200;1,8..144,300;1,8..144,400&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -10,115 +11,116 @@ body {
     background: rgb(255, 255, 255);
     color: white;
 }
+
 .menu-burger {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #eee;
-  padding: 4px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eee;
+    padding: 4px 10px;
 }
 
 .menu-burger ul {
-  list-style: none;
-  display: flex;
-  margin: 0;
+    list-style: none;
+    display: flex;
+    margin: 0;
 }
 
 .menu-burger ul li {
-  padding: 0 20px;
+    padding: 0 20px;
 }
 
 .menu-burger ul li:nth-child(2) {
-  padding: 0;
+    padding: 0;
 }
 
 .menu-burger ul li a {
-  text-decoration: none;
-  color: #111;
-  font-size: 12px;
+    text-decoration: none;
+    color: #111;
+    font-size: 12px;
 }
 
 .menu-burger ul li a:hover {
-  color: #2a2a2a;
+    color: #2a2a2a;
 }
 
 .menu-burger2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 69px;
-  position: sticky;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 69px;
+    position: sticky;
 }
 
 @media screen and (max-width: 768px) {
-  .menu-burger2 {
-    justify-content: flex-end;
-  }
+    .menu-burger2 {
+        justify-content: flex-end;
+    }
 }
 
 .menu-burger2 .menuDesplegableBurger {
-  margin-right: 10px;
-  padding: 0;
+    margin-right: 10px;
+    padding: 0;
 }
 
 .menu-burger2 .menuDesplegableBurger i {
-  font-size: 1.5rem;
-  color: #111;
-  cursor: pointer;
+    font-size: 1.5rem;
+    color: #111;
+    cursor: pointer;
 }
 
 .menu-burger2 .bodyMenu {
-  padding: 0;
+    padding: 0;
 }
 
 .menu-burger2 .bodyMenu .menuDesplegable {
-  padding: 0;
-  margin-top: 10px;
+    padding: 0;
+    margin-top: 10px;
 }
 
 .menu-burger2 .bodyMenu .menuDesplegable li {
-  padding: 10px 0;
-  margin-bottom: 0;
+    padding: 10px 0;
+    margin-bottom: 0;
 }
 
 .menu-burger2 .logo-container {
-  position: absolute;
-  left: 10px;
+    position: absolute;
+    left: 10px;
 }
 
 .menu-burger2 ul {
-  list-style: none;
-  display: flex;
-  margin: 0;
+    list-style: none;
+    display: flex;
+    margin: 0;
 }
 
 @media screen and (max-width: 768px) {
-  .menu-burger2 ul {
-    flex-direction: column;
-    justify-content: center;
-  }
+    .menu-burger2 ul {
+        flex-direction: column;
+        justify-content: center;
+    }
 }
 
 .menu-burger2 ul li {
-  margin-right: 10px;
+    margin-right: 10px;
 }
 
 @media screen and (max-width: 768px) {
-  .menu-burger2 ul li {
-    margin-right: 0;
-    margin-bottom: 10px;
-    border-bottom: 1px solid #111;
-  }
+    .menu-burger2 ul li {
+        margin-right: 0;
+        margin-bottom: 10px;
+        border-bottom: 1px solid #111;
+    }
 }
 
 .menu-burger2 ul li a {
-  text-decoration: none;
-  color: #111;
-  padding: 16px 12px 18px 12px;
+    text-decoration: none;
+    color: #111;
+    padding: 16px 12px 18px 12px;
 }
 
 .menu-burger2 ul li a:hover {
-  border-bottom: 2px solid #111;
+    border-bottom: 2px solid #111;
 }
 
 .divImg {
@@ -142,6 +144,8 @@ body {
     align-items: center;
     width: 100%;
     height: 69px;
+    position: fixed;
+    margin: -6px 0px 0px 0px;
 }
 
 .container {
@@ -236,7 +240,7 @@ body {
     font-size: 18px;
 }
 
-label{
+label {
     position: fixed;
 }
 
@@ -284,31 +288,16 @@ h1 {
 
 }
 
-
-
 .ea {
-
     width: 100%;
     display: flex;
     justify-content: center;
-
-
 }
-
 
 .carrito {
     margin: auto;
     text-align: center;
 }
-
-.titulo {
-    padding: 80px;
-    width: 100%;
-    text-align: center;
-    font-size: 50px;
-    text-shadow: 2px 2px 10px white;
-}
-
 
 .swal2-modal,
 .swal2-show-shown,
@@ -393,7 +382,7 @@ h1 {
     transition: .2s;
 }
 
-.precio{
+.precio {
     font-size: 16px;
     text-align: center;
     font-weight: 240;
@@ -401,6 +390,7 @@ h1 {
     color: #000000a8;
     font-family: 'Roboto Serif', serif;
 }
+
 h2 {
     font-size: 19px;
     text-align: center;
@@ -592,26 +582,15 @@ td {
     font-family: 'Roboto Serif';
 }
 
-.parra {
-    font-family: 'Raleway', sans-serif;
+.parra{
+    font-family: fantasy;
     color: #000000a6;
-    font-size: 51px;
-    width: 44% !important;
-    position: absolute;
-    margin: -404px 10px 13px 10px;
-
+    font-size: 29px;
+    width: 35% !important;
+    /* position: absolute; */
+    margin: -276px 0px 0px 15px;
 }
 
-.wrapper {
-    position: absolute;
-    top: 89%;
-    left: 14%;
-    transform: translate(-50%, -50%);
-}
-
-.link_wrapper {
-    position: relative;
-}
 
 .viewMenu {
     display: block;
@@ -677,9 +656,7 @@ td {
         gap: 20px 20px;
         grid-template-columns: auto auto auto;
     }
-    .wrapper{
-      margin:  -18px 0px 0px 28px;
-    }
+
 
 }
 
@@ -702,20 +679,11 @@ td {
         height: 36rem;
     }
 
-    .container2,
-    .carousel,
-    .carousel__face {
-
-        display: none;
-    }
-
     h1 {
-        margin: 123px 0px 0px 0px;
+        margin: 173px 0px 0px 0px;
     }
-    .wrapper{
-        margin: 37px 0px 0px 28px;
-     }
 
+ 
 }
 
 @media (max-width: 700px) {
@@ -727,33 +695,9 @@ td {
         grid-template-columns: auto;
     }
 
-
-
-    .titulo {
-        padding: 40px;
-        font-size: 40px;
-    }
-
-    .container2,
-    .carousel,
-    .carousel__face {
-
-        display: none;
-    }
-
     h1 {
         margin: 123px 0px 0px 0px;
     }
-
-    .wrapper {
-      margin:  -144px 0px 0px 181px;
-    }
-
-    .parra {
-        display: none;
-
-    }
-
 
 }
 
@@ -772,62 +716,25 @@ td {
         font-size: 14px;
     }
 
-    .container2,
-    .carousel,
-    .carousel__face {
-
-        display: none;
-    }
-
     h1 {
         margin: 123px 0px 0px 0px;
     }
-
-    .parra {
-        display: none;
-
-    }
-
 
     .imgPrincipal {
         width: 100% !important;
         height: 295px;
     }
 
-    .wrapper {
-        margin: -136px 0px 0px 131px;
-    }
 }
 
 @media (max-width: 390px) {
 
 
-    .titulo {
-        padding: 40px;
-        font-size: 25px;
-    }
-
-    .container2,
-    .carousel,
-    .carousel__face {
-
-        display: none;
-
-    }
-
     .imgPrincipal {
         width: 110% !important;
         height: 217px;
-}
-   
-
-h1 {
-    margin: 88px 11px 1px 39px;
-    font-size: revert;
-}
-    .wrapper {
-        margin: -222px 0px 0px 127px;
     }
+
 }
 
 
@@ -838,32 +745,32 @@ h1 {
 form {
     display: flex;
     flex-direction: column;
-    
+
     width: 28rem;
     backdrop-filter: blur(2rem);
     padding: 8rem;
     border-radius: 66px;
     margin: auto;
-  
-  }
-  
-  input {
-   
-      text-decoration: none;
-      color: black;
-      font-size: 1rem;
-      font-weight: 400;
-      cursor: pointer;
-      padding: 8px 20px;
-      margin: 10px 6px 0 0;
-      border-radius: 20px;
-      cursor: text;
-      width: 20rem;
-      display: flex;
-      align-self: center;
-  }
-  
-  #submit2{
+
+}
+
+input {
+
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    font-weight: 400;
+    cursor: pointer;
+    padding: 8px 20px;
+    margin: 10px 6px 0 0;
+    border-radius: 20px;
+    cursor: text;
+    width: 20rem;
+    display: none;
+    align-self: center;
+}
+
+#submit2 {
     background-color: #111;
     text-decoration: none;
     color: #fff;
@@ -876,9 +783,9 @@ form {
     width: 15rem;
     display: flex;
     justify-content: center;
-  }
-  
-  #submit {
+}
+
+#submit {
     background-color: #111;
     text-decoration: none;
     color: #fff;
@@ -891,48 +798,50 @@ form {
     width: 15rem;
     display: flex;
     justify-content: center;
-  }
-  .text{
+}
+
+.text {
     text-decoration: none;
     color: #212529 !important;
     font-size: 20px;
     display: flex;
     margin: 10px 0px 0px 10px;
     align-self: center;
-    
-  }
-  .text:hover{
+
+}
+
+.text:hover {
     text-decoration: underline;
-  
-  }
-  
-  fieldset {
+
+}
+
+fieldset {
     text-align: center;
     border: none;
     font-family: 'NikeFont';
     src: url("../Nike-Font/Futura Condensed Extra Bold.otf");
     font-size: 3rem;
     font-weight: 900;
-   
-  
-  }
-  
-  .user-icon {
+
+
+}
+
+.user-icon {
     width: 9rem;
     height: 9rem;
     margin: auto;
     border: 2px solid #000;
     border-radius: 50%;
-  }
-  @media only screen and (max-width: 500px) and (min-width: 236px){
-     form {
-      width: 100%;
-      margin: 10px 0 0 10px;
-    }}
+}
 
-    table {
-
-        color: black;
+@media only screen and (max-width: 500px) and (min-width: 236px) {
+    form {
+        width: 100%;
+        margin: 10px 0 0 10px;
     }
-    
-    
+}
+
+table {
+
+    color: black;
+}
