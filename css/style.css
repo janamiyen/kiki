@@ -587,8 +587,14 @@ td {
     color: #000000a6;
     font-size: 29px;
     width: 35% !important;
-    /* position: absolute; */
-    margin: -276px 0px 0px 15px;
+    margin: 0px 0px 0px 17px;
+}
+
+.parraDos{
+    color: #000000a6;
+    font-size: 29px;
+    width: 35%;
+    margin: -300px 0px 1px 17px;
 }
 
 
@@ -699,6 +705,22 @@ td {
         margin: 123px 0px 0px 0px;
     }
 
+    .parra{
+        font-family: fantasy;
+        color: #000000a6;
+        font-size: 20px;
+        width: 35% !important;
+        margin: -5px 0px 0px 17px;
+    }
+    
+    .parraDos{
+        color: #000000a6;
+        font-size: 20px;
+        width: 35%;
+        margin: -199px 0px 1px 17px;
+    }
+    
+
 }
 
 @media (max-width: 520px) {
@@ -725,6 +747,22 @@ td {
         height: 295px;
     }
 
+    .parra{
+        font-family: fantasy;
+        color: #000000a6;
+        font-size: 29px;
+        width: 35% !important;
+        margin: 0px 0px 0px 17px;
+    }
+    
+    .parraDos{
+        color: #000000a6;
+        font-size: 29px;
+        width: 35%;
+        margin: -300px 0px 1px 17px;
+    }
+    
+
 }
 
 @media (max-width: 390px) {
@@ -734,6 +772,21 @@ td {
         width: 110% !important;
         height: 217px;
     }
+    .parra{
+        font-family: fantasy;
+        color: #000000a6;
+        font-size: 29px;
+        width: 35% !important;
+        margin: 0px 0px 0px 17px;
+    }
+    
+    .parraDos{
+        color: #000000a6;
+        font-size: 29px;
+        width: 35%;
+        margin: -300px 0px 1px 17px;
+    }
+    
 
 }
 
@@ -745,10 +798,8 @@ td {
 form {
     display: flex;
     flex-direction: column;
-
     width: 28rem;
-    backdrop-filter: blur(2rem);
-    padding: 8rem;
+    padding: 5rem;
     border-radius: 66px;
     margin: auto;
 
@@ -766,8 +817,12 @@ input {
     border-radius: 20px;
     cursor: text;
     width: 20rem;
-    display: none;
+    display: flex;
     align-self: center;
+}
+
+.important{
+
 }
 
 #submit2 {
@@ -819,10 +874,10 @@ fieldset {
     text-align: center;
     border: none;
     font-family: 'NikeFont';
-    src: url("../Nike-Font/Futura Condensed Extra Bold.otf");
-    font-size: 3rem;
-    font-weight: 900;
-
+    src: url(../Nike-Font/Futura Condensed Extra Bold.otf);
+    font-size: 2rem;
+    font-weight: 600;
+    color: black;
 
 }
 
