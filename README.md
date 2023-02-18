@@ -1,7 +1,7 @@
 BURGERLAND
 
 BurgerLand es una tienda en línea especializada en la venta de hamburguesas. Ofrece una amplia variedad de opciones para que puedas personalizar tu hamburguesa a gusto. 
-¡Únete a la comunidad de Homer Burger y descubre la mejor experiencia de hamburguesas en línea!
+¡Únete a la comunidad de BurgerLand y descubre la mejor experiencia de hamburguesas en línea!
 
 Funciones
 
