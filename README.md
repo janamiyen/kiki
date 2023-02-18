@@ -14,7 +14,7 @@ JavaScript, HTML, CSS, Bootstrap.
 
 Trabajo en progreso:
 Agregar opciones de personalización de los ingredientes.
-Agregar count 
+Agregar count.
 Añadir una sección de "Testimonios de clientes".
 Agregar @media a h4 h5.
 
