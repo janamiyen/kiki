@@ -152,8 +152,8 @@ finalizarCompra.addEventListener('click', () => {
   //Agrego libreria sweetalert2 para mensaje de finalizar compra
 
   Swal.fire({
-    title: 'Muchas gracias por tu compra!!',
-    text: 'Gracias por elegir HomerBurger!!',
+    title: 'SE CONFIRMO TU PEDIDO',
+    text: 'BurgerLand llegará volando a tu puerta',
     imageUrl: './img/homero.png',
     imageWidth: 200,
     imageHeight: 200,
