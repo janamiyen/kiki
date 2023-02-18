@@ -251,6 +251,11 @@ label {
     padding: 12px;
     z-index: 10;
 }
+.btn-close{
+    box-sizing: content-box;
+    width: 23em;
+    height: 1em;
+}
 
 h3 {
     color: #fff;
@@ -585,15 +590,15 @@ td {
 .parra{
     font-family: fantasy;
     color: #000000a6;
-    font-size: 29px;
+    font-size: 2rem;
     width: 35% !important;
     margin: 0px 0px 0px 17px;
 }
 
 .parraDos{
     color: #000000a6;
-    font-size: 29px;
-    width: 35%;
+    font-size: 2rem;
+        width: 35%;
     margin: -300px 0px 1px 17px;
 }
 
@@ -708,14 +713,14 @@ td {
     .parra{
         font-family: fantasy;
         color: #000000a6;
-        font-size: 20px;
+        font-size: 1.25rem ;
         width: 35% !important;
         margin: -5px 0px 0px 17px;
     }
     
     .parraDos{
         color: #000000a6;
-        font-size: 20px;
+        font-size: 1.25rem ;
         width: 35%;
         margin: -199px 0px 1px 17px;
     }
@@ -744,22 +749,22 @@ td {
 
     .imgPrincipal {
         width: 100% !important;
-        height: 295px;
+        height: 21rem;
     }
 
     .parra{
         font-family: fantasy;
         color: #000000a6;
-        font-size: 29px;
+        font-size: 1rem;
         width: 35% !important;
         margin: 0px 0px 0px 17px;
     }
     
     .parraDos{
         color: #000000a6;
-        font-size: 29px;
+        font-size: 1rem;
         width: 35%;
-        margin: -300px 0px 1px 17px;
+        margin: -198px 0px 1px 17px;
     }
     
 
@@ -770,21 +775,21 @@ td {
 
     .imgPrincipal {
         width: 110% !important;
-        height: 217px;
+        height: 308px;
     }
     .parra{
         font-family: fantasy;
         color: #000000a6;
-        font-size: 29px;
+        font-size: 1rem;
         width: 35% !important;
         margin: 0px 0px 0px 17px;
     }
     
     .parraDos{
         color: #000000a6;
-        font-size: 29px;
+        font-size: 1rem;
         width: 35%;
-        margin: -300px 0px 1px 17px;
+        margin: -184px 0px 1px 17px;
     }
     
 
