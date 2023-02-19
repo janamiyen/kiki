@@ -684,14 +684,26 @@ td {
 
 
     img>.imgPrincipal {
-
-
         width: 78rem;
         height: 36rem;
     }
 
     h1 {
         margin: 173px 0px 0px 0px;
+    }
+    .parra{
+        font-family: fantasy;
+        color: #000000a6;
+        font-size: 1.20rem ;
+        width: 35% !important;
+        margin: -5px 0px 0px 17px;
+    }
+    
+    .parraDos{
+        color: #000000a6;
+        font-size: 1.20rem ;
+        width: 35%;
+        margin: -199px 0px 1px 17px;
     }
 
  
@@ -713,16 +725,21 @@ td {
     .parra{
         font-family: fantasy;
         color: #000000a6;
-        font-size: 1.25rem ;
+        font-size: 1.20rem ;
         width: 35% !important;
         margin: -5px 0px 0px 17px;
     }
     
     .parraDos{
         color: #000000a6;
-        font-size: 1.25rem ;
+        font-size: 1.20rem ;
         width: 35%;
         margin: -199px 0px 1px 17px;
+    }
+    img>.imgPrincipal {
+
+        width: 78rem;
+        height: 40rem;
     }
     
 
