@@ -52,7 +52,7 @@
         "id":9,
         "nombre":"McPollo",
         "precio": 580,
-        "imagen": "./img/mcPollo.png" 
+        "imagen": "./img/McPollo.png" 
     },
     {
         "id":10,
